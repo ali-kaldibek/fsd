@@ -1,0 +1,47 @@
+:root{
+    --color-backgraud-body-1-: rgb(14,17,23);
+    --color-backgraud-footer-1-: rgb(20,20,47);
+}
+
+
+body{
+    background: var(--color-backgraud-body-1-);
+    margin: 0;
+}
+header{
+    color: #fff;
+
+
+    align-items: flex-start;
+    position: fixed;
+    
+    width: 80%;
+    height: 10%;
+
+    margin: 1% 10% 1% 10%;
+    
+    background: rgba( 0, 0, 0, 0.25 );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+}
+main{
+    padding: 10% 10% 0 10%;
+    color: #fff;
+    font-size: 20px;
+}
+footer{
+    align-items: flex-end;
+    
+    width: 80%;
+    height: 1000px;
+    
+    margin: 1% 10% 1% 10%;
+    color: #fff;
+    
+    
+    /* height: 1000px; */
+    
+    background: var(--color-backgraud-footer-1-);
+}

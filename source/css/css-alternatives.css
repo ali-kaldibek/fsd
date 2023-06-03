@@ -1,0 +1,41 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+
+
+.border-top{
+    border-top: 1px solid #ffffff;
+}
+.border-right{
+    border-right: 1px solid #ffffff;
+}
+
+.padding{
+    padding: 10px 40px;
+    font-size: 30px;
+}      
+.html-tags{
+    background: #b99461;
+    color: #ece3d3;
+}
+.css-alternatives{
+    background: #4646b1;
+    color: #d0d0dc;
+}
+
+.border-radius-left-top{
+    border-radius: 10px 0 0 0 ;
+}
+.border-radius-left-bottom{
+    border-radius: 0 0 0 10px;
+}
+
+.border-radius-right-top{
+    border-radius: 0 10px 0 0;
+}
+.border-radius-right-bottom{
+    border-radius: 0 0 10px 0;
+}
